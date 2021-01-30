@@ -87,7 +87,7 @@
           <p class="animate__animated animate__fadeInUp">We develop, deploy and maintain your software as a craftsman.
             <br /> We are doing it for more than 19 years.
           </p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <a href="#who" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
       </div>
 
@@ -99,7 +99,7 @@
             <br />
             Our online courses platform is awesome take a look at that.
           </p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <a href="#services" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
       </div>
 
@@ -111,7 +111,7 @@
             <br> we've a bunch of in-house solution for your business.
 
           </p>
-          <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+          <a href="#services" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
         </div>
       </div>
 
@@ -131,7 +131,7 @@
   <main id="main">
 
     <!-- ======= Services Section ======= -->
-    <section class="services">
+    <section id="services" class="services">
       <div class="container">
         <div class="section-title">
           <h2>Development & Training</h2>
@@ -201,9 +201,9 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Why Us Section ======= -->
-    <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+    <section id="who" class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+      <br/>
       <div class="container">
-
         <div class="row">
           <div class="col-lg-6 video-box">
             <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
@@ -383,7 +383,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href=""></a>BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -413,7 +413,7 @@
       console.log("email will be subscribed");
 
       var xhr = new XMLHttpRequest();
-      xhr.open("POST", "http://localhost:8080/email", true);
+      xhr.open("POST", "http://javasite-env.eba-yic9rufm.us-east-2.elasticbeanstalk.com/email", true);
       xhr.setRequestHeader('Content-Type', 'application/json');
       xhr.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
